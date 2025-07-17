@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choose Language</title>
+    <style>
+        body {
+            background-color: #f5f3ea;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .lang-container {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+        h2 {
+            margin: 0 0 20px 0;
+            color: #6d5c2c;
+        }
+        button {
+            width: 160px;
+            padding: 14px 0;
+            margin: 0 10px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            background-color: #d1c8ae;
+            color: #3d3321;
+            cursor: pointer;
+            transition: background 0.4s, color 0.4s;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #b8a97a;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-container">
+        <h2>Choose Language</h2>
+        <div>
+            <button onclick="window.location.href='index-AR.html'">عربي</button>
+            <button onclick="window.location.href='index-EN.html'">English</button>
+        </div>
+    </div>
+</body>
+</html>
